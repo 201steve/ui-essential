@@ -1,14 +1,15 @@
-body{
-    font-family:sans-serif;
+body {
+  font-family: sans-serif;
 }
-form{
-    display:flex;
-    flex-direction: column;
-    row-gap:12px;
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
 }
-label{
-    font-size:12px;
+label {
+  font-size: 12px;
 }
-input,textarea{
-    display:block;
+input,
+textarea {
+  display: block;
 }

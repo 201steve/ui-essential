@@ -1,4 +1,5 @@
 export const routes = {
-    ROOT:'/',
-    CONTACT_FORM:'/contact-form',
-}
+  ROOT: "/",
+  CONTACT_FORM: "/contact-form",
+  ACCORDION: "/accordion",
+};
