@@ -35,10 +35,7 @@ const Accordion: React.FC<AccordionProps> = ({ sections }) => {
               {title}
               <span
                 aria-hidden={true}
-                className={[
-                  "accordion-icon",
-                  isExpanded && "accordion-icon--rotated",
-                ]
+                className={["accordion-icon", isExpanded && "accordion-icon--rotated"]
                   .filter(Boolean)
                   .join(" ")}
               />
